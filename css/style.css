@@ -84,8 +84,11 @@ p {
 
 header,
 footer {
-    width: 98%;
+    width: 96%;
     background-color: #fff;
+   float:left;
+}
+.ya-share2{
     float: left;
 }
 
@@ -242,7 +245,7 @@ footer {
 footer img {
     width: 10%;
     float: left;
-    margin-right: 5px;
+    margin-right: 2%;
 }
 
 #page-warp: after {
