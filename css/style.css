@@ -69,9 +69,6 @@ p {
     clear: both
 }
 
-
-/*Selection block*/
-
 ::selection {
     background: #f58b8b;
     color: #fff
@@ -116,9 +113,6 @@ input[type=text].field:focus {
     border: 2px soild #f58b8b
 }
 
-
-/* Cтили для футера*/
-
 #menu {
     color: #666;
     font-family: Comic Sans MS, sans-serif;
@@ -142,9 +136,6 @@ input[type=text].field:focus {
 #menuHrefs a:hover {
     background-color: dodgerblue
 }
-
-
-/* Стили для сайта*/
 
 #wrapper {
     float: left;
@@ -204,9 +195,6 @@ input[type=text].field:focus {
     background-color: red;
 }
 
-
-/* Стили для страницы о нас*/
-
 #about_us {
     width: 60%;
     float: left;
@@ -228,10 +216,6 @@ input[type=text].field:focus {
     padding: 1%;
 }
 
-
-/* Центральный блок нашего сайта*/
-/* Стили для футера*/
-
 footer {
     padding: 1%;
     border-bottom: 2px solid silver;
@@ -245,7 +229,7 @@ footer img {
     margin-right: 5px;
 }
 
-#page-warp: after {
+#page-warp:after {
     content: "";
     display: block;
 }
@@ -259,9 +243,6 @@ footer,
     min-height: 100%;
     margin-bottom: -10px;
 }
-
-
-/*Сейчас пойдут стили для галлереи*/
 
 .maps {
     margin-top: 2%;
@@ -381,7 +362,6 @@ footer,
 
 .demo-gallery .justified-gallery>a:hover .demo-gallery-poster {
     background-color: rgba(0, 0, 0, 0.5);
-    
 }
 
 .demo-gallery .video .demo-gallery-poster img {
@@ -399,12 +379,13 @@ footer,
 .home .demo-gallery {
     padding-bottom: 80px;
 }
-/*Стили для about*/
+
 #pic {
-    float: left; /* Обтекание картинки текстом */
-   }
-   #text {
-    margin-left: 400px; /* Отступ от левого края */
+    float: left;
+}
+
+#text {
+    margin-left: 400px;
     margin-top: 30px;
     margin-right: 20px;
-   }
+}
